@@ -201,7 +201,7 @@ export default function ContactSection() {
                     </a>
                 </div>
 
-                {/* 바로가기 버튼 2개 */}
+                {/* 바로가기 버튼 2개 
                 <div className="flex flex-col sm:flex-row justify-center gap-3">
                     <a
                         href="https://www.linkedin.com/in/augustopolonio/"
@@ -284,6 +284,7 @@ export default function ContactSection() {
                         잡코리아 바로가기
                     </a>
                 </div>
+                */}
             </div>
         </section>
     );

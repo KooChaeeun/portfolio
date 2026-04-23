@@ -5,7 +5,6 @@ export interface Project {
     Contributor: 'Solo' | 'Team';
     tags: string[];
     href: string;
-    badge?: string;
     external?: boolean;
 }
 
@@ -18,7 +17,7 @@ export const projects: Project[] = [
         Contributor: 'Solo',
         tags: ['React', 'TypeScript', 'Framer-Motion', 'Gsap', 'React Router'],
         href: 'https://pharma-science.vercel.app/',
-        badge: 'IN DEVELOPMENT',
+        external: true,
     },
     {
         title: '멸종위기 야생동물',

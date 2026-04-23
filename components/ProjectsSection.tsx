@@ -74,25 +74,6 @@ export default function ProjectsSection() {
                                     overflow: 'hidden',
                                 }}
                             >
-                                {project.badge && (
-                                    <div
-                                        style={{
-                                            position: 'absolute',
-                                            top: '12px',
-                                            left: '12px',
-                                            zIndex: 2,
-                                            background: 'var(--accent)',
-                                            color: '#fff',
-                                            fontSize: '0.6rem',
-                                            fontWeight: 800,
-                                            padding: '4px 10px',
-                                            borderRadius: '4px',
-                                            letterSpacing: '0.08em',
-                                        }}
-                                    >
-                                        {project.badge}
-                                    </div>
-                                )}
                                 <Image
                                     src={project.image}
                                     alt={project.title}
@@ -196,6 +177,8 @@ export default function ProjectsSection() {
                 프로젝트에 대해 더 자세히 알아보고 싶다면?{' '}
                 <Link
                     href="https://github.com/KooChaeeun"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: 'var(--accent2)', textDecoration: 'none' }}
                 >
                     View Details →
