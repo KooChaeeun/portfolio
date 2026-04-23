@@ -5,6 +5,9 @@ import ScrollRestoration from '@/components/ScrollRestoration';
 export const metadata: Metadata = {
     title: 'KooChaeeun | Designer & UI Developer',
     description: 'Portfolio of KooChaeeun — Designer & UI Developer with 2+ years of experience.',
+    icons: {
+        icon: '/favicon.svg',
+    },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

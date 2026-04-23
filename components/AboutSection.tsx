@@ -89,13 +89,29 @@ const stats = [
     { num: '6+', unit: 'Months', label: '프론트엔드 부트캠프', color: '#1D9E75' },
 ];
 
+const responsiveCSS = `
+@media (max-width: 768px) {
+  .about-section { padding: 40px 20px 60px !important; }
+  .about-heading { margin-bottom: 32px !important; }
+  .about-grid { grid-template-columns: 1fr !important; gap: 36px !important; }
+  .about-left-col { display: flex; flex-direction: column; align-items: center; }
+  .about-stats-wrap { flex-direction: row !important; width: 100%; max-width: 340px; gap: 10px !important; }
+  .about-stat-card { flex: 1; width: auto !important; padding: 14px 10px !important; }
+}
+@media (max-width: 380px) {
+  .about-photo { width: 180px !important; height: 180px !important; }
+}
+`;
+
 export default function AboutSection() {
     return (
         <section
             id="about"
+            className="about-section"
             style={{ padding: '60px 32px 80px', maxWidth: '1100px', margin: '0 auto' }}
         >
-            {/* Section label */}
+            <style dangerouslySetInnerHTML={{ __html: responsiveCSS }} />
+
             <div className="section-label" style={{ marginBottom: '14px' }}>
                 <svg
                     width="13"
@@ -114,6 +130,7 @@ export default function AboutSection() {
             </div>
 
             <h2
+                className="about-heading"
                 style={{
                     fontSize: 'clamp(1.6rem, 3vw, 2.2rem)',
                     fontWeight: 800,
@@ -125,6 +142,7 @@ export default function AboutSection() {
             </h2>
 
             <div
+                className="about-grid"
                 style={{
                     display: 'grid',
                     gridTemplateColumns: '220px 1fr',
@@ -132,10 +150,11 @@ export default function AboutSection() {
                     alignItems: 'flex-start',
                 }}
             >
-                {/* ── Left: Photo + Stats ── */}
-                <div>
-                    {/* Photo */}
-                    <div style={{ position: 'relative', width: '220px', height: '220px' }}>
+                <div className="about-left-col">
+                    <div
+                        className="about-photo"
+                        style={{ position: 'relative', width: '220px', height: '220px' }}
+                    >
                         <div
                             style={{
                                 position: 'absolute',
@@ -165,8 +184,8 @@ export default function AboutSection() {
                         </div>
                     </div>
 
-                    {/* Stat cards */}
                     <div
+                        className="about-stats-wrap"
                         style={{
                             marginTop: '24px',
                             display: 'flex',
@@ -177,6 +196,7 @@ export default function AboutSection() {
                         {stats.map((s) => (
                             <div
                                 key={s.label}
+                                className="about-stat-card"
                                 style={{
                                     background: 'var(--surface)',
                                     border: '1px solid var(--border)',
@@ -221,9 +241,7 @@ export default function AboutSection() {
                     </div>
                 </div>
 
-                {/* ── Right: Bio ── */}
                 <div>
-                    {/* Tag chips */}
                     <div
                         style={{
                             display: 'flex',
@@ -249,7 +267,6 @@ export default function AboutSection() {
                         ))}
                     </div>
 
-                    {/* Bio cards */}
                     <div
                         style={{
                             display: 'flex',
@@ -311,13 +328,15 @@ export default function AboutSection() {
                         ))}
                     </div>
 
-                    {/* CTA buttons */}
-                    <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                    <div
+                        style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}
+                        className="flex justify-center md:justify-start"
+                    >
                         <a
                             href="/resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="btn-primary"
+                            className="btn-primary flex"
                         >
                             <svg
                                 width="14"
