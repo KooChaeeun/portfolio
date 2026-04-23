@@ -107,7 +107,8 @@ export default function Navbar() {
 
                     {/* Resume 버튼 (수정 완료) */}
                     <a
-                        href="/Augusto_Polonio_Resume.pdf"
+                        href="/resume.pdf"
+                        download="구채은_이력서.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn-primary"

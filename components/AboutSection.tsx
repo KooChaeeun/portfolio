@@ -334,6 +334,7 @@ export default function AboutSection() {
                     >
                         <a
                             href="/resume.pdf"
+                            download="구채은_이력서.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn-primary flex"
