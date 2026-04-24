@@ -1,19 +1,22 @@
-# KooChaeeun Portfolio
+# 🖥️ Portfolio Site
 
-[파머사이언스코리아 바로가기](https://pharma-science.vercel.app/) | [멸종위기 야생동물 바로가기](https://endangered-species-chi.vercel.app/)
+> [🔗 포트폴리오 사이트 바로가기](https://portfolio-kappa-seven-tkc9o98rnc.vercel.app/)
 
-디자이너이자 UI 개발자인 **구채은**의 포트폴리오 사이트입니다.  
-이 사이트는 작업한 포트폴리오인 **파머사이언스코리아**, **멸종위기 야생동물** 프로젝트와 함께, 저에 대한 소개/연락 정보를 담고 있습니다.
+## 📌 프로젝트 소개
 
-## 프로젝트 소개
+기획·디자인·퍼블리싱·기능 구현까지 전 과정을 단독으로 수행한 개인 포트폴리오 사이트입니다.
 
-- **파머사이언스코리아**
-  - 제약회사 홈페이지 리뉴얼 프로젝트
-  - 정보 제공형 구조에서 브랜드 경험 중심 사이트로 개선
+##주요 프로젝트
 
-- **멸종위기 야생동물**
-  - 멸종위기 야생동물 정보 제공 및 시민 제보 서비스 사이드 프로젝트
-  - Feature 기반 폴더 구조와 Container/Presentational 패턴으로 관심사 분리
+- 💊 **파머사이언스코리아**
+    - 제약회사 홈페이지 리뉴얼 프로젝트
+    - 정보 제공형 구조에서 브랜드 경험 중심 사이트로 개선
+    - [파머사이언스코리아 바로가기](https://pharma-science.vercel.app/)
+
+- 🐾 **멸종위기 야생동물**
+    - 멸종위기 야생동물 정보 제공 및 시민 제보 서비스 사이드 프로젝트
+    - Feature 기반 폴더 구조와 Container/Presentational 패턴으로 관심사 분리
+    - [멸종위기 야생동물 바로가기](https://endangered-species-chi.vercel.app/)
 
 ## 기술 스택
 
