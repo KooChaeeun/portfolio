@@ -7,7 +7,7 @@
 
 <br />
 
-[![포트폴리오 사이트 방문하기 ->](https://img.shields.io/badge/🔗_Live_Demo-000000?style=for-the-badge)](https://portfolio-kappa-seven-tkc9o98rnc.vercel.app/)
+[![포트폴리오 사이트 바로가기 ->](https://img.shields.io/badge/🔗_포트폴리오 사이트 바로가기-000000?style=for-the-badge)](https://portfolio-kappa-seven-tkc9o98rnc.vercel.app/)
 
 </div>
 
@@ -29,7 +29,7 @@
 - 첫 화면에서 기업 정체성을 명확히 전달하는 Hero 영역 재설계
 - 헬스케어 업계에 맞는 차분하면서도 현대적인 UI 구현
 
-🔗 **[사이트 방문하기기 →](https://pharma-science.vercel.app/)**
+🔗 **[사이트 방문하기 →](https://pharma-science.vercel.app/)**
 
 <br />
 
@@ -41,7 +41,7 @@
 - **Container / Presentational 패턴**으로 UI와 로직의 관심사 분리
 - 사이드 프로젝트로 설계·구조·구현 전 과정 단독 수행
 
-🔗 **[사이트 방문하기기 →](https://endangered-species-chi.vercel.app/)**
+🔗 **[사이트 방문하기 →](https://endangered-species-chi.vercel.app/)**
 
 <br />
 
