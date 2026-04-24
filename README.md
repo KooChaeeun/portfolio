@@ -8,11 +8,12 @@
 <br />
 
 <a href="https://portfolio-kappa-seven-tkc9o98rnc.vercel.app/">
-  <img src="https://img.shields.io/badge/🔗_Visit_Site-5a4bd1?style=for-the-badge" height="50" alt="Visit Site" />
+  <img src="https://img.shields.io/badge/🔗%20%20Visit%20Portfolio%20Site%20%20→-5a4bd1?style=for-the-badge&labelColor=5a4bd1" height="50" alt="Visit Site" />
 </a>
 
 </div>
 
+<br />
 <br />
 
 <div align="center">
