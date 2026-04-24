@@ -7,7 +7,7 @@
 
 <br />
 
-[![포트폴리오 사이트 바로가기](https://img.shields.io/badge/🔗_포트폴리오_사이트_바로가기-5a4bd1?style=for-the-badge)](https://portfolio-kappa-seven-tkc9o98rnc.vercel.app/)
+[![Visit Site](https://img.shields.io/badge/🔗_Visit_Site-5a4bd1?style=for-the-badge)](https://portfolio-kappa-seven-tkc9o98rnc.vercel.app/)
 
 </div>
 
