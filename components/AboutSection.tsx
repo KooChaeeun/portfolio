@@ -333,7 +333,7 @@ export default function AboutSection() {
                         className="flex justify-center md:justify-start"
                     >
                         <a
-                            href="/resume.pdf"
+                            href="/구채은_이력서.pdf"
                             download="구채은_이력서.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
