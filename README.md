@@ -14,7 +14,7 @@
 <br />
 
 <div align="center">
-  <img src="./screenshot.png" alt="Portfolio Preview" width="800" />
+  <img src="/port-thumb.jpg" alt="Portfolio Preview" width="800" />
 </div>
 
 <br />
@@ -29,7 +29,7 @@
 - 첫 화면에서 기업 정체성을 명확히 전달하는 Hero 영역 재설계
 - 헬스케어 업계에 맞는 차분하면서도 현대적인 UI 구현
 
-🔗 **[Visit Site →](https://pharma-science.vercel.app/)**
+🔗 **[사이트 방문하기기 →](https://pharma-science.vercel.app/)**
 
 <br />
 
@@ -41,7 +41,7 @@
 - **Container / Presentational 패턴**으로 UI와 로직의 관심사 분리
 - 사이드 프로젝트로 설계·구조·구현 전 과정 단독 수행
 
-🔗 **[Visit Site →](https://endangered-species-chi.vercel.app/)**
+🔗 **[사이트 방문하기기 →](https://endangered-species-chi.vercel.app/)**
 
 <br />
 
@@ -96,6 +96,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 <div align="center">
 
-Made with 💙
+Made with KooChaeeun💙
 
 </div>
