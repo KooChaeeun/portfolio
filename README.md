@@ -7,7 +7,9 @@
 
 <br />
 
-[![Visit Site](https://img.shields.io/badge/🔗_Visit_Site-5a4bd1?style=for-the-badge)](https://portfolio-kappa-seven-tkc9o98rnc.vercel.app/)
+<a href="https://portfolio-kappa-seven-tkc9o98rnc.vercel.app/">
+  <img src="https://img.shields.io/badge/🔗_Visit_Site-5a4bd1?style=for-the-badge" height="50" alt="Visit Site" />
+</a>
 
 </div>
 
