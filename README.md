@@ -14,7 +14,7 @@
 <br />
 
 <div align="center">
-  <img src="/port-thumb.jpg" alt="Portfolio Preview" width="800" />
+  <img src="./public/port-thumb.jpg" alt="Portfolio Preview" width="800" />
 </div>
 
 <br />
