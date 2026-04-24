@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🖥️ Portfolio
+# 🖥️ Portfolio Site
 
 기획 · 디자인 · 퍼블리싱 · 기능 구현까지  
 **전 과정을 단독으로 수행한** 개인 포트폴리오 사이트입니다.
@@ -53,6 +53,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 
 </div>
